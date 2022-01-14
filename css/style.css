@@ -1,0 +1,17 @@
+body{
+    background-color: tan;
+}
+
+.buttonSet2{
+    display: none;
+}
+.buttonSet3{
+    display: none;
+}
+.buttonSet4{
+    display: none;
+}
+
+.retryButton{
+    display: none;
+}
