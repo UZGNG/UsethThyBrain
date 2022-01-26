@@ -35,7 +35,7 @@ document.getElementById("buttonTryStairs").addEventListener("click", function tr
     document.getElementById("buttonTryBridge").style.display = "inline"
     document.getElementById("buttonTryTech").style.display = "inline"
 });
-document.getElementById("buttonTryBathroom").addEventListener("click", function tryStairsResult() {
+document.getElementById("buttonTryBathroom").addEventListener("click", function tryBathroomResult() {
     document.getElementById("situationText").innerHTML = "You sprint into the nearest restroom. You quickly check your surroundings and see a hole in the ground. You hesitate because that's disgusting. However you find it a necesary evil just in case it helps you find a way home. You peak over the edge to find... a portal? You assume that this is your shot, your only way out of this time period. You fit yourself into this very small hole. You wake up in the middle of the street. You scramble to your feet and go read a sign that says 'France, 1792'. You dont realize the significance of that date until you hear a loud thump in the background. You turn around to watch as a bloody blade is being raised. That is a guillotine, and YOU are stuck during the bloodiest time of the French Revolution."
     document.getElementById("buttonTryBathroom").style.display = "none"
     document.getElementById("buttonTryBridge").style.display = "none"
@@ -124,7 +124,7 @@ document.getElementById("retryButton").addEventListener("click", function retryR
     document.getElementById("retryButton").style.display = "none"
 });
 
-document.getElementById("playAgainButton").addEventListener("click", function retryResult() {
+document.getElementById("playAgainButton").addEventListener("click", function againResult() {
     document.getElementById("situationText").innerHTML = "You have woken up after the craziest party of your life. While at first this day seems relatively normal, you realize that you're locked in a prison. However this is no ordinary prison. You notice that the walls are made of eroded stone, and instead of modern doors, there are very thick iron bars between you and freedom. You deduce that you've been teleported to the medieval era, based on your very little historical knowledge. 'You must useth thy brain to escape' is a phrase you can see written on the walls in what you can only hope and pray is red Koolaid. What is your first move?"
     document.getElementById("buttonTryDoor").style.display = "inline"
     document.getElementById("buttonTasteKoolaid").style.display = "inline"
