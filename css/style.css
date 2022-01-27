@@ -40,3 +40,7 @@ button{
 .playAgainButton{
     display: none;
 }
+
+#house, #ship, #flag{
+    display: none;
+}
