@@ -125,15 +125,20 @@ document.getElementById("buttonCharge").addEventListener("click", function tryMa
     document.getElementById("retryButton").style.display = "inline"
 });
 
+
+//Vent Branch Start
+
 document.getElementById("buttonTryVent").addEventListener("click", function tryVentResult() {
     document.getElementById("buttonTryStairs").style.display = "none"
     document.getElementById("buttonTryVent").style.display = "none"
     document.getElementById("buttonTryWindow").style.display = "none"
+    document.getElementById("ventBtnLeft").style.display = "inline"
+    document.getElementById("buttonTryWindow").style.display = "inline"
 
-    
-    document.getElementById("situationText").innerHTML = "You swiftly leap into the vent and pop out on the other side. You have now found yourself in the barracks, and the guards inside very quickly deduce that you are indeed the imposter. They kill you on the spot. YOU LOSE!"
-    document.getElementById("retryButton").style.display = "inline"
+    document.getElementById("situationText").innerHTML = "You swiftly leap into the vent"
 });
+
+//Vent Branch End
 
 document.getElementById("buttonTryWindow").addEventListener("click", function tryWindowResult() {
     document.getElementById("buttonTryStairs").style.display = "none"

@@ -41,6 +41,10 @@ button{
     display: none;
 }
 
+#ventBtnLeft, #ventBtnRight{
+    display: none;
+}
+
 #house, #ship, #flag{
     display: none;
 }
